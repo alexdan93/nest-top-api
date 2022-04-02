@@ -10,18 +10,13 @@ import {
 } from '@nestjs/common';
 import { TopPageModel } from './top-page.model';
 import { FindTopPageDto } from './dto/find-top-page.dto';
-import { ConfigService } from '@nestjs/config';
 
 @Controller('top-page')
 export class TopPageController {
-    constructor(private readonly configService: ConfigService) {
-        //    empty
-    }
-
-    @Get('get/:alias')
+    @Get('get/:id')
     // temporary change argument of Promise to void
-    async get(@Param('alias') alias: string): Promise<void> {
-        const test = this.configService.get('TEST');
+    async get(@Param('id') id: string): Promise<void> {
+        // empty
     }
 
     @Post('create')

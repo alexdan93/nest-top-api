@@ -6,15 +6,12 @@ Project was created followed by [Udemy course](https://www.udemy.com/course/nest
 
 ## Installation
 
-Make sure you have installed docker
-
 ```bash
-docker-compose up -d
 npm install
 ```
 
 ## Running the app
-
+Make sure you have installed docker
 ```bash
 # development
 $ docker-compose up -d

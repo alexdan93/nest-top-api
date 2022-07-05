@@ -2,7 +2,7 @@
 
 Simple API with Auth, Product, Review and page HH data aggregation
 
-Project was created followed by [Udemy course](https://www.udemy.com/course/nestjs-backend-typescript-node-js/)
+Project was created following [Udemy course](https://www.udemy.com/course/nestjs-backend-typescript-node-js/)
 
 ## Installation
 
